@@ -17,7 +17,7 @@ Patch10:	lxpanel-icons.patch
 Patch11:	lxpanel-0.5.6-volumeicon.patch
 Patch12:	lxpanel-0.5.6-clock.patch
 
-URL:		http://code.google.com/p/lxpanelx/
+URL:		https://code.google.com/p/lxpanelx/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	gtk+2-devel libalsa-devel intltool
 BuildRequires:	menu-cache-devel >= 0.2.1
