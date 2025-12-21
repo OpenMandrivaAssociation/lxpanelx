@@ -19,6 +19,11 @@ Patch12:	lxpanel-0.5.6-clock.patch
 
 URL:		https://code.google.com/p/lxpanelx/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	gtk+2-devel libalsa-devel intltool
 BuildRequires:	menu-cache-devel >= 0.2.1
 BuildRequires:	docbook-to-man libwnck-1-devel docbook-dtd412-xml
